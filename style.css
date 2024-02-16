@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Orbit-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/Orbit-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Default styles for larger screens */
+body {
+  max-width: 1200px; /* Default max-width for larger screens */
+  margin: 0 auto; /* Center the content */
+  padding: 20px; /* Add some padding */
+  font-family: Orbit-Regular, Arial, Helvetica, sans-serif;
+}
+
+nav a {
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+  line-height: 2;
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 100%; /* On smaller screens, allow the body to take up the full width */
+    padding: 10px; /* Optionally adjust the padding for smaller screens */
+  }
+}
