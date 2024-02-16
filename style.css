@@ -20,6 +20,13 @@ nav a {
   color: #4f46e5;
 }
 
+a {
+  display: block;
+  text-underline-offset: 6px;
+  color: #4f46e5;
+  font-weight: bold;
+}
+
 main {
   width: 90%;
   margin: 0 auto;
